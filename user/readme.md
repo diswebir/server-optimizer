@@ -11,7 +11,7 @@ A comprehensive, interactive Bash script for managing Linux users with ease and 
 ```bash
 curl -fsSL -o users.sh https://raw.githubusercontent.com/diswebir/server-optimizer/main/users.sh
 ```
-then run
+### then run
 
 ```bash
 
