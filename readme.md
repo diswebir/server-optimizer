@@ -1,10 +1,2 @@
-Installation and Usage
-To install and run the server optimization script, follow these two simple steps. This method ensures the script is downloaded locally before being executed with root privileges, which is often a more reliable approach for interactive scripts.
-
-Download the script: This command uses curl to download the script from the specified GitHub URL and saves it to a file named users.sh.
-
-curl -fsSL -o users.sh https://raw.githubusercontent.com/diswebir/server-optimizer/main/users.sh
-
-Run the script with root privileges: This command executes the downloaded users.sh script using sudo bash, which grants the necessary administrator permissions for it to make system changes.
-
-sudo bash users.sh
+Installation and UsageTo quickly install and run the server optimization script, simply copy and paste the following command into your terminal. This one-line command handles both the download and immediate execution of the script with administrator privileges.curl -fsSL https://raw.githubusercontent.com/diswebir/server-optimizer/main/users.sh | sudo bash -s
+Command BreakdownFor better understanding, here is a breakdown of the command's components:curl -fsSL ...: This part downloads the script from the provided URL. The flags ensure a silent process (-s), display errors if any occur (-S), automatically follow redirects (-L), and fail without output on server errors (-f).| (Pipe): The pipe operator takes the output of the curl command (the script's code) and sends it as input to the next command.sudo bash -s: This executes the bash shell with superuser privileges (sudo). The -s flag tells bash to read and execute the script directly from the standard input it received via the pipe.
