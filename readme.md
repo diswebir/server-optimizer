@@ -7,6 +7,9 @@ To quickly install and run the server optimization script, simply copy and paste
 
 <code>sudo bash [users.sh](http://users.sh) </code>
 
+  <input id="my-text-to-copy" value="This text will be copied.">
+  <clipboard-copy for="my-text-to-copy">Copy Text</clipboard-copy>
+
 ### Command Breakdown
 
 For better understanding, here is a breakdown of the command's components:
