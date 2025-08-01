@@ -12,7 +12,7 @@ LOG_FILE="/var/log/user_management_script.log"
 PAM_PASSWORD_CONFIG="/etc/pam.d/common-password"
 REQUIRED_PACKAGES=("sudo" "ps" "grep" "awk" "sed" "du" "cut" "column" "useradd" "userdel" "usermod" "passwd" "lastlog" "chage" "pam_pwquality")
 
-# --- Colors for Output ---
+# --- Colors for Output ---0
 RED='\033[0;31m'
 GREEN='\033[0;32m'
 YELLOW='\033[0;33m'
