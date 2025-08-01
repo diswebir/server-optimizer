@@ -4,12 +4,12 @@ Installation and Usage
 To quickly install and run the server optimization script, simply copy and paste the following command into your terminal. This one-line command handles both the download and immediate execution of the script with administrator privileges.
 
 ```bash 
-curl -fsSL https://raw.githubusercontent.com/diswebir/server-optimizer/main/users.sh```
+curl -fsSL https://raw.githubusercontent.com/diswebir/server-optimizer/main/users.sh
+```
+```bash
+sudo bash [users.sh](http://users.sh) 
 
-<code>sudo bash [users.sh](http://users.sh) </code>
-
-  <input id="my-text-to-copy" value="This text will be copied.">
-  <clipboard-copy for="my-text-to-copy">Copy Text</clipboard-copy>
+```
 
 ### Command Breakdown
 
